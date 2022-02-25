@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/age_calculator_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/vehicle_expense_b"
+        android:text="Age Calculator" />
+    <Button
+        android:id="@+id/vehicle_expense_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/recharge_tax_b"
+        android:text="Vehicle Expense" />
+    <Button
+        android:id="@+id/recharge_tax_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Recharge Tax" />
+    <Button
+        android:id="@+id/unique_operation_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recharge_tax_b"
+        android:text="Unique Operation" />
+
+</RelativeLayout>
